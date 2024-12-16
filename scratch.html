@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Scratch Page - Basketball</title>
+    <link rel="stylesheet" href="scratch.css"> <!-- Linked stylesheet -->
+</head>
+<body>
+    <!-- Header Section -->
+    <h1 id="top" class="header">I Love Basketball!</h1>
+    
+    <!-- Navigation Link -->
+    <p><a href="index.html" class="nav-link">Back to Professional Page</a></p>
+
+    <!-- Introduction Section -->   
+    <div class="content">
+        <p>Basketball is a fast-paced and dynamic sport that has captured the hearts of fans around the world. Played on a rectangular court by two teams of five players each, the objective is to score points by shooting the ball through the opposing team’s hoop, which stands 10 feet high. The game is known for its fluid movement, strategic plays, and electrifying moments.</p>
+        <p>Players are typically assigned positions based on their skills, including point guard, shooting guard, small forward, power forward, and center. Offensively, teams execute plays such as pick-and-rolls and fast breaks, while defensively they employ strategies like man-to-man coverage or zone defense.</p>
+    </div>
+
+    <!-- NBA Section -->
+    <h2>The NBA</h2>
+    <p>The NBA, widely regarded as the pinnacle of professional basketball, showcases legendary players and thrilling competition. Beyond professional leagues, basketball’s cultural impact is immense, with stars like Michael Jordan and Kobe Bryant becoming global icons. Whether on a grand stage or a neighborhood court, basketball is a sport of skill, passion, and universal appeal.</p>
+
+    <!-- Images Section -->
+    <h3>Images</h3>
+    <img src="nba.png" class="basketball-image" alt="NBA Logo">
+    <img src="Lakers.jpg" class="basketball-image" alt="Basketball Image">
+
+    <!-- Nested List Section -->
+    <h3>My Favorite Players</h3>
+    <ol>
+        <li>Kobe Bryant
+            <ul>
+                <li>Legendary Shooting Guard</li>
+                <li>5-Time NBA Champion</li>
+            </ul>
+        </li>
+        <li>LeBron James
+            <ul>
+                <li>All-Time Leading Scorer</li>
+                <li>4-Time NBA Champion</li>
+            </ul>
+        </li>
+        <li>Jeremy Lin
+            <ul>
+                <li>Inspiration for Asian Players</li>
+                <li>2019 NBA Champion</li>
+            </ul>
+        </li>
+    </ol>
+
+    <!-- On-page Anchor -->
+    <p><a href="#top" class="nav-link">Back to Top</a></p>
+
+    <!-- Embedded YouTube Video -->
+    <h3>Basketball Highlights</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/P34ZixacOak" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+    <!-- Embedded Tableau Graph -->
+    <h3>Interactive Tableau Graph</h3>
+    <div class='tableauPlaceholder' id='viz1733335414799'>
+        <noscript>
+            <a href='#'>
+                <img alt='Fruit ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;US&#47;USFruitConsumption&#47;Fruit&#47;1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='name' value='USFruitConsumption&#47;Fruit' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+        </object>
+    </div>
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1733335414799');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        vizElement.style.width = '900px';
+        vizElement.style.height = '752px';
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script>
+</body>
+</html>
